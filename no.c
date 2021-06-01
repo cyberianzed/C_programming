@@ -1,39 +1,63 @@
 #include <stdio.h>
-#define BASE 10 // 0 to 9
 
 int main()
 {
-    long long num, n;
-    int i, lastDigit;
-    int freq[BASE];
 
-    printf("Enter any number: ");
-    scanf("%lld", &num);
-    /* Initialize frequency array with 0 */
-    for (i = 0; i < BASE; i++)
+    int n, ld = 1;
+    int a, b, c, d, e, f, g, h, i, j;
+    a = b = c = d = e = f = g = h = i = j = 0;
+
+    scanf("%d", &n);
+
+    while (ld > 0)
     {
-        freq[i] = 0;
-    }
+        ld = n % 10;
 
-    n = num;
-
-    while (n != 0)
-    {
-        /* Get last digit */
-        lastDigit = n % 10;
-
-        /* Remove last digit */
         n /= 10;
 
-        /* Increment frequency array */
-        freq[lastDigit]++;
+        switch (ld)
+        {
+        case 1:
+            a++;
+            break;
+        case 2:
+            b++;
+            break;
+        case 3:
+            c++;
+            break;
+        case 4:
+            d++;
+            break;
+        case 5:
+            e++;
+            break;
+        case 6:
+            f++;
+            break;
+        case 7:
+            g++;
+            break;
+        case 8:
+            h++;
+            break;
+        case 9:
+            i++;
+            break;
+
+        default:
+            break;
+        }
     }
 
-    printf("Frequency of each digit in %lld is: \n", num);
-    for (i = 0; i < BASE; i++)
-    {
-        printf("Frequency of %d = %d\n", i, freq[i]);
-    }
-
-    return 0;
+    printf("0 %d\n", j);
+    printf("1 %d\n", a);
+    printf("2 %d\n", b);
+    printf("3 %d\n", c);
+    printf("4 %d\n", d);
+    printf("5 %d\n", e);
+    printf("6 %d\n", f);
+    printf("7 %d\n", g);
+    printf("8 %d\n", h);
+    printf("9 %d\n", i);
 }
