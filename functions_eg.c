@@ -11,6 +11,11 @@ void display(int marks[], int size)
 }
 void main()
 {
+    int size;
+    printf("Enter range to Print\n");
+    scanf("%d", &size);
+    printf("\n");
+
     int marks[10] = {4, 6, 77, 83, 22, 33};
-    display(marks, 3);
+    display(marks, size);
 }
