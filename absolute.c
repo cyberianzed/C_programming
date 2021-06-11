@@ -6,7 +6,7 @@ int main()
 
     printf("Enter Numbers\n");
 
-    scanf("%d\n%d", &n, &m);
+    scanf("%d%d", &n, &m);
 
     val = n - m;
 
