@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "limits": "c",
-        "NASA.C": "cpp",
-        "iostream": "cpp",
-        "ratio": "c"
-    }
-}
