@@ -13,7 +13,7 @@ int main()
     }
     
     else{
-        for(i=1; i<=no; i=i+1){
+        for(i=1; i<=no; i++){
     
         fact=fact*i;
     }
