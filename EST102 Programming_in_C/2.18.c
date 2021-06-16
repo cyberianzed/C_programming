@@ -18,14 +18,13 @@ F          Fail
 int main()
 {
     int grade;
-
-    printf("Enter your grade(E, V, G, A, F) :\n");
-    scanf("%c", &grade);
-    printf("Remarks :\n\n");
-
-    //Using switch statement to identify which remark to print
     do
     {
+        printf("Enter your grade(E, V, G, A, F) :\n");
+        scanf("%c", &grade);
+        printf("Remarks :\n\n");
+
+        //Using switch statement to identify which remark to print
         switch (grade)
         {
         case 'E':
@@ -43,9 +42,9 @@ int main()
         case 'F':
             printf("Fail\n");
             break;
-        // default:
-        //     printf("Enter a correct grade\n");
-        //     break;
+            // default:
+            //     printf("Enter a correct grade\n");
+            //     break;
         }
-    } while (grade=='q');
+    } while (grade == 'q');
 }
