@@ -1,4 +1,4 @@
-/******************************************************************
+/***********************************************************
  * File         :   2.26
  * Description  :   Binary Number to Decimal
  * Author       :   Jose K James
@@ -6,7 +6,7 @@
  * Date         :   25/06/2021
 
 2.26
-******************************************************************/
+***********************************************************/
 #include <stdio.h>
 
 int main()
@@ -17,11 +17,11 @@ int main()
     scanf("%d", &binary);
 
     temp = binary;
-    while (binary > 0)       //for iteraterating depending on count of digits
+    while (binary > 0) //for iteraterating depending on count of digits
     {
-        num = binary % 10;      //get last number
-        result += num * pow;    //multiplying the number to base of 2
-        binary /= 10;           //remove last number
+        num = binary % 10;   //get last number
+        result += num * pow; //multiplying the number to base of 2
+        binary /= 10;        //remove last number
         pow *= 2;
     }
     printf("\nThe Binary Number : %d\n", temp);

@@ -18,7 +18,7 @@ int main()
 
     for (int i = 1; i <= range0; i++)
     {
-        cube = i * i * i;   //calculating cube of the number(i)
+        cube = i * i * i; //calculating cube of the number(i)
         printf("Number is : %d and cube of the %d is : %d \n", i, i, cube);
     }
 }
