@@ -3,7 +3,7 @@
  * Description  :   Binary Number to Decimal
  * Author       :   Jose K James
  * Version      :   0.12
- * Date         :   25/06/2021
+ * Date         :   08/08/2021
 
 2.26
 ***********************************************************/
