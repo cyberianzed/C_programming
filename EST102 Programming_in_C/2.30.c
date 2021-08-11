@@ -44,6 +44,6 @@ void printDiamond(int n) // function to print pattern with 2n rows
 
 int main()
 {
-    printDiamond(5);
+    printDiamond(4);
     return 0;
 }
